@@ -37,7 +37,7 @@ class Janken():
 
 class GameStart():
   @classmethod
-  def jankenpon(cls):
+  def jankenpon(cls): #クラスメソッドの場合は第一引数にclsを指定。
     player = Player()
     enemy = Enemy()
     janken = Janken()
